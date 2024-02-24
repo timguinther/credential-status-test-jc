@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://timguinther.github.io/credential-status-test-jc/WMUTFO45P2",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://timguinther.github.io/credential-status-test-jc/WMUTFO45P2#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6MkoazVRKwmdXBy6KXAy23nmnnPcUDYVYQL2FM61vvvD4az",
+  "issuanceDate": "2024-02-24T18:44:28.387Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-02-24T18:44:28Z",
+    "verificationMethod": "did:key:z6MkoazVRKwmdXBy6KXAy23nmnnPcUDYVYQL2FM61vvvD4az#z6MkoazVRKwmdXBy6KXAy23nmnnPcUDYVYQL2FM61vvvD4az",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2ckookfoqjQHfrebj3vFhAaspo6QEPPRqAhTaMack8iRtBS2PaXMvBaTyjD92k2JHwvTPuLNTR6iC5R85tyLkQcz"
+  }
+}
